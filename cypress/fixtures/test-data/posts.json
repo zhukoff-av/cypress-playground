@@ -1,0 +1,33 @@
+{
+  "validPost": {
+    "userId": 1,
+    "title": "Valid post title",
+    "body": "Valid post body with sufficient length"
+  },
+  "invalidPost": {
+    "userId": 0,
+    "title": "",
+    "body": null
+  },
+  "partialUpdate": {
+    "title": "Updated title only"
+  },
+  "fullUpdate": {
+    "userId": 1,
+    "title": "Fully updated title",
+    "body": "Fully updated body content"
+  },
+  "testCases": {
+    "responseTime": {
+      "maxDuration": 1000
+    },
+    "pagination": {
+      "limit": 10,
+      "offset": 0
+    },
+    "filters": {
+      "validUserId": 1,
+      "invalidUserId": 999
+    }
+  }
+}
